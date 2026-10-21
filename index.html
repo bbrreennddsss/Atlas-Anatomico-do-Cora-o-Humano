@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática: CSS Anchor Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <span class="badge">CSS Anchor Positioning • Imagem IA (16:9) com 5 Elementos</span>
+    <h1>Tema: Atlas Anatômico do Coração Humano</h1>
+    <p>Aluno(a): Brenda Isabelly Vieira • Chamada: Aluno Nº 02</p>
+  </header>
+
+  <main class="container-infografico">
+    <div class="cenario-imagem">
+      <!-- 1 Única Imagem Widescreen (16:9) Gerada na IA -->
+      <img id="foto-cenario" src="./img/coracao.jpg" alt="Cenário Temático Widescreen 16:9">
+
+      <!-- PONTO 1: Superior Esquerdo -->
+      <button type="button" id="ponto-1" class="pin-hotspot pin-top-left" popovertarget="card-1">1</button>
+      <div id="card-1" class="card-ancorado" popover>
+        <h3>1. Átrio Direito</h3>
+        <p>É uma das quatro câmaras do coração humano. Ele recebe o sangue pobre em oxigênio vindo de todo o corpo pelas veias cavas (superior e inferior) e pelo seio coronário, bombeando-o em seguida para o ventrículo direito pela valva tricúspide.</p>
+      </div>
+
+      <!-- PONTO 2: Superior Direito -->
+      <button type="button" id="ponto-2" class="pin-hotspot pin-top-right" popovertarget="card-2">2</button>
+      <div id="card-2" class="card-ancorado" popover>
+        <h3>2. Átrio Esquerdo</h3>
+        <p>É uma das quatro cavidades do coração, localizado na parte superior e posterior. Ele recebe o sangue rico em oxigênio vindo dos pulmões através das veias pulmonares e o bombeia para o ventrículo esquerdo, de onde segue para o resto do corpo.</p>
+      </div>
+
+      <!-- PONTO 3: Centro -->
+      <button type="button" id="ponto-3" class="pin-hotspot pin-center" popovertarget="card-3">3</button>
+      <div id="card-3" class="card-ancorado" popover>
+        <h3>3. Válvula Aórtica</h3>
+        <p>É uma das quatro válvulas do coração. Ela fica entre o ventrículo esquerdo e a artéria aorta. Sua função é abrir para deixar o sangue rico em oxigênio sair do coração para o corpo e fechar para impedir que o sangue volte.</p>
+      </div>
+
+      <!-- PONTO 4: Inferior Esquerdo -->
+      <button type="button" id="ponto-4" class="pin-hotspot pin-bottom-left" popovertarget="card-4">4</button>
+      <div id="card-4" class="card-ancorado" popover>
+        <h3>4. Ventrículo Direito</h3>
+        <p>É uma das quatro câmaras do coração humano. Ele recebe o sangue pobre em oxigênio vindo do átrio direito pela valva tricúspide e o bombeia para a artéria pulmonar pela valva pulmonar.</p>
+      </div>
+
+      <!-- PONTO 5: Inferior Direito -->
+      <button type="button" id="ponto-5" class="pin-hotspot pin-bottom-right" popovertarget="card-5">5</button>
+      <div id="card-5" class="card-ancorado" popover>
+        <h3>5. Ventrículo Esquerdo</h3>
+        <p>É uma das quatro câmaras do coração humano. Ele recebe o sangue rico em oxigênio vindo do átrio esquerdo pela valva bicúspide e o bombeia para o resto do corpo através da valva aórtica.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Material Pedagógico • Prof. Esp. Leandro Gaudio Rosa • Entrega no GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
